@@ -6,30 +6,22 @@ import javax.persistence.*;
 public class Token {
 
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
 
     private String ticker;
-    private double price;
-    private double priceChange;
+
+    private Long totalSupply;
 
     public Token() {
 
     }
 
-    public Token(Integer id, String ticker, double priceChange, double price){
-        this.id = id;
+    public Token(String ticker, Long totalSupply){
         this.ticker = ticker;
-        this.price = price;
-        this.priceChange = priceChange;
+        this.totalSupply = totalSupply;
     }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getTicker() {
         return ticker;
@@ -39,20 +31,19 @@ public class Token {
         this.ticker = ticker;
     }
 
-    public double getPrice() {
-        return price;
+    public Long getTotalSupply() {
+        return totalSupply;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setTotalSupply(Long totalSupply) {
+        this.totalSupply = totalSupply;
     }
 
-    public double getPriceChange() {
-        return priceChange;
+    public Integer getId() {
+        return id;
     }
 
-    public void setPriceChange(double priceChange) {
-        this.priceChange = priceChange;
+    public void setId(Integer id) {
+        this.id = id;
     }
-
 }

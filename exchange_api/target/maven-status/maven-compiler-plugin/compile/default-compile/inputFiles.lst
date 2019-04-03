@@ -6,4 +6,5 @@
 /home/chaos/Work/Exchange/exchange_api/src/main/java/com/advancedexchange/api/Configuration/SecurityConfiguration.java
 /home/chaos/Work/Exchange/exchange_api/src/main/java/com/advancedexchange/api/Entities/Token.java
 /home/chaos/Work/Exchange/exchange_api/src/main/java/com/advancedexchange/api/ApiApplication.java
+/home/chaos/Work/Exchange/exchange_api/src/main/java/com/advancedexchange/api/Configuration/WebConfiguration.java
 /home/chaos/Work/Exchange/exchange_api/src/main/java/com/advancedexchange/api/Bootstrap/BootLoader.java
