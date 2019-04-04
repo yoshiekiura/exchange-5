@@ -3,6 +3,9 @@ package com.advancedexchange.api.Controllers;
 import com.advancedexchange.api.Entities.Token;
 import com.advancedexchange.api.Services.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -19,6 +22,11 @@ public class TokenController {
     @Autowired
     private TokenService tokenService;
 
+    @RequestMapping("/")
+    public String helloWorld() {
+        return "Hi this is the back end app, use the /token to show the list of tokens as json";
+    }
+
     @GetMapping("/tokens")
     public List<Token> listTokens() {
         Iterable<Token> allTokens = tokenService.listAllTokens();
@@ -27,12 +35,17 @@ public class TokenController {
         return allTokenList;
     }
 
+    @Cacheable(value = "tokens", key = "#id")
     @GetMapping("/tokens/{id}")
-    public Optional<Token> getToken(@PathVariable int id) {
+    public Token getToken(@PathVariable int id) {
         Optional<Token> token = tokenService.getTokenById(id);
-        return token;
+        if(token.isPresent()) {
+            return token.get();
+        }
+        return new Token();
     }
 
+    @CacheEvict(value = "tokens", allEntries=true)
     @DeleteMapping("/tokens/{id}")
     public void deleteToken(@PathVariable int id) {
         Optional<Token> token = tokenService.getTokenById(id);
@@ -42,28 +55,17 @@ public class TokenController {
     }
 
     @PostMapping("/tokens")
-    public ResponseEntity<Object> createToken(@RequestBody Token token) {
+    public Token createToken(@RequestBody Token token) {
         Token savedToken = tokenService.saveToken(token);
-
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
-                .buildAndExpand(savedToken.getId()).toUri();
-
-        return ResponseEntity.created(location).build();
+        return savedToken;
     }
 
+
+    @CachePut(value = "tokens", key = "#token.id")
     @PutMapping("/tokens/{id}")
-    public ResponseEntity<Object> updateToken(@RequestBody Token token, @PathVariable int id) {
-
-        Optional<Token> tokenOptional = tokenService.getTokenById(id);
-
-        if (!tokenOptional.isPresent())
-            return ResponseEntity.notFound().build();
-
-        token.setId(id);
-
-        tokenService.saveToken(token);
-
-        return ResponseEntity.noContent().build();
+    public Token updateToken(@RequestBody Token token, @PathVariable int id) {
+        Token savedToken = tokenService.saveToken(token);
+        return savedToken;
     }
 
 }

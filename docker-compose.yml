@@ -1,10 +1,17 @@
 version: '3'
 services:
+  nginx:
+    restart: always
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - '9090:80'
   postgres:
     image: 'postgres:latest'
   redis:
     image: 'redis:latest'
-  exchange_api:
+  api:
     build:
       dockerfile: Dockerfile.dev
       context: ./exchange_api
@@ -16,9 +23,20 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/postgres
       - SPRING_DATASOURCE_INITIALIZATION-MODE=always
       - SPRING_JPA_HIBERNATE_DLL-AUTO=create-drop
-      - SPRING_DATASOURCE_PLATFORM=postgres
+      - SPRING_DATASOURCE_PLATFORM=poenabledstgres
+      - SPRING_CACHE_TYPE=redis
       - REDIS_HOST=redis
       - REDIS_PORT=6379
+      - SPRING_DATA_REDIS_REPOSITORIES_ENABLED=false 
     ports:
       - 9093:9093
+  client:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./exchange_client
+    volumes:
+      - /app/node_modules
+      - ./exchange_client:/app
 
+  
+    

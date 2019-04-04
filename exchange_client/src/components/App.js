@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route, Switch } from 'react-router-dom';
+/*import { Router, Route, Switch } from 'react-router-dom';
 import TokenCreate from './tokens/TokenCreate';
 import TokenEdit from './tokens/TokenCreate';
 import TokenDelete from './tokens/TokenDelete';
@@ -23,6 +23,15 @@ const App = () => {
           </Switch>
         </div>
       </Router>
+    </div>
+  );
+};
+*/
+
+const App = () => {
+  return (
+    <div className="ui container">
+      Hello, this is the front end application, written with react, add the /api to access the back end
     </div>
   );
 };

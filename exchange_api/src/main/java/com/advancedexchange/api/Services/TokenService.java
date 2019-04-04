@@ -1,7 +1,5 @@
 package com.advancedexchange.api.Services;
-
 import com.advancedexchange.api.Entities.Token;
-
 import java.util.Optional;
 
 public interface TokenService {
