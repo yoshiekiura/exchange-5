@@ -22,7 +22,7 @@ class TokenEdit extends React.Component {
       <div>
         <h3>Edit a Token</h3>
         <TokenForm
-          initialValues={_.pick(this.props.token, 'title', 'description')}
+          initialValues={_.pick(this.props.token, 'ticker', 'supply')}
           onSubmit={this.onSubmit}
         />
       </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 
 class TokenForm extends React.Component {
+
   renderError({ error, touched }) {
     if (touched && error) {
       return (
@@ -33,11 +34,11 @@ class TokenForm extends React.Component {
         onSubmit={this.props.handleSubmit(this.onSubmit)}
         className="ui form error"
       >
-        <Field name="title" component={this.renderInput} label="Enter Title" />
+        <Field name="ticker" component={this.renderInput} label="Enter your token's ticker" />
         <Field
-          name="description"
+          name="supply"
           component={this.renderInput}
-          label="Enter Description"
+          label="Enter your token's total supply"
         />
         <button className="ui button primary">Submit</button>
       </form>
@@ -49,11 +50,11 @@ const validate = formValues => {
   const errors = {};
 
   if (!formValues.title) {
-    errors.title = 'You must enter a title';
+    errors.title = 'You must enter a ticker';
   }
 
   if (!formValues.description) {
-    errors.description = 'You must enter a description';
+    errors.description = 'You must enter the total supply';
   }
 
   return errors;

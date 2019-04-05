@@ -33,9 +33,7 @@ class TokenDelete extends React.Component {
       return 'Are you sure you want to delete this token?';
     }
 
-    return `Are you sure you want to delete the token with title: ${
-      this.props.token.title
-    }`;
+    return `Are you sure you want to delete the token with ticker: ${this.props.token.ticker}`;
   }
 
   render() {

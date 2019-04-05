@@ -34,9 +34,9 @@ class TokenList extends React.Component {
           <i className="large middle aligned icon camera" />
           <div className="content">
             <Link to={`/tokens/${token.id}`} className="header">
-              {token.title}
+              {token.ticker}
             </Link>
-            <div className="description">{token.description}</div>
+            <div className="supply">{token.supply}</div>
           </div>
         </div>
       );

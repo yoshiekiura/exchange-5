@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38e770c4-f250-44b4-8c29-1728943b5315" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advancedexchange/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advancedexchange/api/ApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Controllers/TokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Controllers/TokenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Entities/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Entities/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Services/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Services/TokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/ApiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Bootstrap/BootLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Configuration/RepositoryConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Configuration/SecurityConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Configuration/WebConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Controllers/TokenController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Entities/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Repositories/TokenRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Services/TokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/advancedexchange/api/Services/TokenServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/apis/tokens.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/apis/tokens.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exchange_client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenDelete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/components/tokens/TokenShow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exchange_client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exchange_client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exchange_client/src/reducers/tokenReducers.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="62" column="67" lean-forward="true" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+            <state relative-caret-position="930">
+              <caret line="62" column="67" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -50,13 +43,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Entities/Token.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/ApiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="75">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,20 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="75">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Controllers/TokenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="195">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -305,11 +294,13 @@
       <workItem from="1554307638736" duration="598000" />
       <workItem from="1554370129843" duration="216000" />
       <workItem from="1554371744994" duration="9633000" />
+      <workItem from="1554391911991" duration="14000" />
+      <workItem from="1554454148135" duration="443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28995000" />
+    <option name="totallyTimeSpent" value="29452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="-2" width="1440" height="902" extended-state="6" />
@@ -371,16 +362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Configuration/CacheConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Configuration/CacheConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Configuration/RepositoryConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -402,44 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Configuration/RedisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/ApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Entities/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Configuration/RedisConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Services/TokenServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -459,15 +404,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="62" column="67" lean-forward="true" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+        <state relative-caret-position="930">
+          <caret line="62" column="67" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/ApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Controllers/TokenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="195">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/advancedexchange/api/Entities/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
