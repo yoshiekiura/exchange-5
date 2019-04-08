@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: api-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       component: api
@@ -17,3 +17,16 @@ spec:
           image: aaqiqsaad/multi-api
           ports:
             - containerPort: 9093
+          env:
+            - name: REDIS_HOST
+              value: redis-cluster-ip-service
+            - name: REDIS_PORT
+              value: 6379
+            - name: PGUSER
+              value: postgres
+            - name: PGHOST
+              value: postgres-cluster-ip-service
+            - name: PGPORT:
+              value: 5432
+            - name: PGDATABASE
+              value: postgres

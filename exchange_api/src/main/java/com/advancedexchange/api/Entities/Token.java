@@ -15,15 +15,15 @@ public class Token implements Serializable {
 
     private String ticker;
 
-    private Long totalSupply;
+    private Long supply;
 
     public Token() {
 
     }
 
-    public Token(String ticker, Long totalSupply){
+    public Token(String ticker, Long supply){
         this.ticker = ticker;
-        this.totalSupply = totalSupply;
+        this.supply = supply;
     }
 
 
@@ -35,12 +35,12 @@ public class Token implements Serializable {
         this.ticker = ticker;
     }
 
-    public Long getTotalSupply() {
-        return totalSupply;
+    public Long getSupply() {
+        return supply;
     }
 
-    public void setTotalSupply(Long totalSupply) {
-        this.totalSupply = totalSupply;
+    public void setSupply(Long supply) {
+        this.supply = supply;
     }
 
     public Integer getId() {

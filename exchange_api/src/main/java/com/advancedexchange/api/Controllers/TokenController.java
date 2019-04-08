@@ -61,11 +61,13 @@ public class TokenController {
     }
 
 
-    @CachePut(value = "tokens", key = "#token.id")
+    @CachePut(value = "tokens")
     @PutMapping("/tokens/{id}")
     public Token updateToken(@RequestBody Token token, @PathVariable int id) {
-        Token savedToken = tokenService.saveToken(token);
-        return savedToken;
+        Token newToken = tokenService.getTokenById(id).isPresent() ? tokenService.getTokenById(id).get() : new Token();
+        newToken.setTicker(token.getTicker());
+        newToken.setSupply(token.getSupply());
+        return tokenService.saveToken(newToken);
     }
 
 }
