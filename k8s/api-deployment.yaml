@@ -17,16 +17,23 @@ spec:
           image: aaqiqsaad/multi-api
           ports:
             - containerPort: 9093
+          imagePullPolicy: "Always"
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
             - name: REDIS_PORT
-              value: 6379
-            - name: PGUSER
-              value: postgres
+              value: '6379'
             - name: PGHOST
               value: postgres-cluster-ip-service
-            - name: PGPORT:
-              value: 5432
+            - name: PGPORT
+              value: '5432'
             - name: PGDATABASE
               value: postgres
+            - name: PGUSER
+              value: postgres
+            - name: PGPASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: pgpassword-secret
+                  key: pgpassword
+

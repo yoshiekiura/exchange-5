@@ -1,18 +1,478 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f68fd9a5-a5b5-4f1c-8452-3eed29ecc048" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exchange_api/src/main/java/com/advancedexchange/api/Configuration/KubernetesConfigMapConfiguration" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exchange_client/Dockerfile.dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_api/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_api/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_api/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_api/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/lib/cli-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/lib/cli-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/lib/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/lib/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/tests/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/tests/test-cli-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/tests/test-config-cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/tests/test-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/dotenv/tests/test-parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/dist/redux-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/dist/redux-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/dist/redux-form.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/dist/redux-form.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedField.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedField.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedField.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedFieldArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedFieldArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedFieldArray.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedFieldArray.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedFields.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedFields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedFields.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/ConnectedFields.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/Field.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/Field.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FieldArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FieldArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FieldArrayProps.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FieldArrayProps.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FieldProps.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FieldProps.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/Fields.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/Fields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FieldsProps.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FieldsProps.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FormName.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FormName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FormNameProps.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FormNameProps.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FormSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/FormSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/SubmissionError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/SubmissionError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/asyncValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/asyncValidation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createField.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFieldArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFieldArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFieldArrayProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFieldArrayProps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFieldProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFieldProps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFields.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFormValueSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFormValueSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFormValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createFormValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createReduxForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createReduxForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/createValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/defaultShouldAsyncValidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/defaultShouldAsyncValidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/defaultShouldError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/defaultShouldError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/defaultShouldValidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/defaultShouldValidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/defaultShouldWarn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/defaultShouldWarn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/deleteInWithCleanUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/deleteInWithCleanUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/events/getValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/events/getValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/events/onChangeValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/events/onChangeValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/events/silenceEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/events/silenceEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/events/silenceEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/events/silenceEvents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/formValueSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/formValueSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/formValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/formValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/generateValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/generateValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormAsyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormAsyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormInitialValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormInitialValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormMeta.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormMeta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormSubmitErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormSubmitErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormSyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormSyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormSyncWarnings.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormSyncWarnings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/getFormValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/handleSubmit.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/handleSubmit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/hasError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/hasError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/hasSubmitFailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/hasSubmitFailed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/hasSubmitSucceeded.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/hasSubmitSucceeded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/Field.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/Field.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/FieldArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/FieldArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/Fields.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/Fields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/formValueSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/formValueSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/formValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/formValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormAsyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormAsyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormInitialValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormInitialValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormMeta.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormMeta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormSubmitErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormSubmitErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormSyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormSyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormSyncWarnings.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormSyncWarnings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/getFormValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/hasSubmitFailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/hasSubmitFailed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/hasSubmitSucceeded.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/hasSubmitSucceeded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isAsyncValidating.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isAsyncValidating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isDirty.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isDirty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isInvalid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isInvalid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isPristine.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isPristine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isSubmitting.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isSubmitting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isValid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/isValid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/reduxForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/reduxForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/values.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/immutable/values.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/index.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/index.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isAsyncValidating.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isAsyncValidating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isDirty.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isDirty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isInvalid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isInvalid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isPristine.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isPristine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isReactNative.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isReactNative.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isSubmitting.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isSubmitting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isValid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/isValid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/propTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/propTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/reduxForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/reduxForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormAsyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormAsyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormInitialValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormInitialValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormMeta.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormMeta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormSubmitErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormSubmitErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormSyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormSyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormSyncWarnings.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormSyncWarnings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/getFormValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/hasSubmitFailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/hasSubmitFailed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/hasSubmitSucceeded.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/hasSubmitSucceeded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isAsyncValidating.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isAsyncValidating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isDirty.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isDirty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isInvalid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isInvalid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isPristine.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isPristine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isSubmitting.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isSubmitting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isValid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/selectors/isValid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/deepEqual.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/deepEqual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/setIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/setIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/splice.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/immutable/splice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/deepEqual.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/deepEqual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/deleteIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/deleteIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/getIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/getIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/setIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/setIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/splice.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/structure/plain/splice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/FormNameProps.types.js.flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/FormNameProps.types.js.flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/eventMocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/eventMocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/getDisplayName.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/getDisplayName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/isHotReloading.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/isHotReloading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/prefixName.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/prefixName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/shallowCompare.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/util/shallowCompare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/values.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/es/values.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedField.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedField.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedField.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedFieldArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedFieldArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedFieldArray.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedFieldArray.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedFields.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedFields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedFields.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/ConnectedFields.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/Field.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/Field.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FieldArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FieldArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FieldArrayProps.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FieldArrayProps.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FieldProps.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FieldProps.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/Fields.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/Fields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FieldsProps.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FieldsProps.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FormName.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FormName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FormNameProps.types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FormNameProps.types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FormSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/FormSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/SubmissionError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/SubmissionError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/asyncValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/asyncValidation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createField.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createField.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFieldArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFieldArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFieldArrayProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFieldArrayProps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFieldProps.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFieldProps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFields.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFormValueSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFormValueSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFormValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createFormValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createReduxForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createReduxForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/createValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/defaultShouldAsyncValidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/defaultShouldAsyncValidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/defaultShouldError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/defaultShouldError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/defaultShouldValidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/defaultShouldValidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/defaultShouldWarn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/defaultShouldWarn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/deleteInWithCleanUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/deleteInWithCleanUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/getValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/getValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/isEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/isEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/onChangeValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/onChangeValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/silenceEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/silenceEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/silenceEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/events/silenceEvents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/formValueSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/formValueSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/formValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/formValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/generateValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/generateValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormAsyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormAsyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormInitialValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormInitialValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormMeta.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormMeta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormSubmitErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormSubmitErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormSyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormSyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormSyncWarnings.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormSyncWarnings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/getFormValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/handleSubmit.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/handleSubmit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/hasError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/hasError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/hasSubmitFailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/hasSubmitFailed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/hasSubmitSucceeded.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/hasSubmitSucceeded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/Field.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/Field.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/FieldArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/FieldArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/Fields.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/Fields.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/formValueSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/formValueSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/formValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/formValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormAsyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormAsyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormInitialValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormInitialValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormMeta.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormMeta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormSubmitErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormSubmitErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormSyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormSyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormSyncWarnings.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormSyncWarnings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/getFormValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/hasSubmitFailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/hasSubmitFailed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/hasSubmitSucceeded.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/hasSubmitSucceeded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isAsyncValidating.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isAsyncValidating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isDirty.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isDirty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isInvalid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isInvalid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isPristine.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isPristine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isSubmitting.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isSubmitting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isValid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/isValid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/reduxForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/reduxForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/values.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/immutable/values.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/index.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/index.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isAsyncValidating.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isAsyncValidating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isDirty.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isDirty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isInvalid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isInvalid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isPristine.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isPristine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isReactNative.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isReactNative.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isSubmitting.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isSubmitting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isValid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/isValid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/propTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/propTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/reduxForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/reduxForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormAsyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormAsyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormError.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormInitialValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormInitialValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormMeta.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormMeta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormNames.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormSubmitErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormSubmitErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormSyncErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormSyncErrors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormSyncWarnings.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormSyncWarnings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormValues.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/getFormValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/hasSubmitFailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/hasSubmitFailed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/hasSubmitSucceeded.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/hasSubmitSucceeded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isAsyncValidating.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isAsyncValidating.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isDirty.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isDirty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isInvalid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isInvalid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isPristine.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isPristine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isSubmitting.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isSubmitting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isValid.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/selectors/isValid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/deepEqual.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/deepEqual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/setIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/setIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/splice.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/immutable/splice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/deepEqual.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/deepEqual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/deleteIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/deleteIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/getIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/getIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/keys.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/setIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/setIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/splice.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/structure/plain/splice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/types.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/types.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/FormNameProps.types.js.flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/FormNameProps.types.js.flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/eventConsts.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/eventConsts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/eventMocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/eventMocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/getDisplayName.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/getDisplayName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/isHotReloading.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/isHotReloading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/prefixName.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/prefixName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/shallowCompare.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/util/shallowCompare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/values.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/lib/values.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/node_modules/redux-form/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/apis/streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/apis/tokens.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/src/apis/tokens.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/components/streams/StreamCreate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/components/streams/StreamDelete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/components/streams/StreamEdit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/components/streams/StreamForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/components/streams/StreamList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/components/streams/StreamShow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/exchange_client/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_client/src/reducers/streamReducer.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/exchange_api/pom.xml" />
+        <option value="$PROJECT_DIR$/exchange_api/src/main/java/com/advancedexchange/api/Configuration/KubernetesConfigMapConfiguration" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1607" />
     <option name="y" value="120" />
     <option name="width" value="1590" />
     <option name="height" value="627" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Exchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exchange_api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f68fd9a5-a5b5-4f1c-8452-3eed29ecc048" name="Default Changelist" comment="" />
+      <created>1554729363318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554729363318</updated>
+      <workItem from="1554729365143" duration="612000" />
+    </task>
+    <task id="LOCAL-00001" summary="starting to configure kubernetes">
+      <created>1554729584277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554729584277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="612000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1600" y="-2" width="1440" height="902" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16642755" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.28978008" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Jenkins" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="starting to configure kubernetes" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting to configure kubernetes" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/exchange_api/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchange_api/src/main/java/com/advancedexchange/api/Configuration/KubernetesConfigMapConfiguration">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchange_api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchange_api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
