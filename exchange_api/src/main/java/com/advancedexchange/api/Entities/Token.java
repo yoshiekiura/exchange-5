@@ -17,13 +17,16 @@ public class Token implements Serializable {
 
     private Long supply;
 
+    private String createdBy;
+
     public Token() {
 
     }
 
-    public Token(String ticker, Long supply){
+    public Token(String ticker, Long supply, String createdBy){
         this.ticker = ticker;
         this.supply = supply;
+        this.createdBy = createdBy;
     }
 
 
@@ -49,5 +52,13 @@ public class Token implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public String getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy) {
+        this.createdBy = createdBy;
     }
 }

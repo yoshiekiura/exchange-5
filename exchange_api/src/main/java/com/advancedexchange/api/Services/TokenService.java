@@ -12,4 +12,7 @@ public interface TokenService {
 
     Optional<Token> getTokenById(Integer id);
 
+    Iterable<Token> listAllTokensByUser(String createdBy);
+
+
 }

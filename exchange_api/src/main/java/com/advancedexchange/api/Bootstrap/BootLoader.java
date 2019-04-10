@@ -23,7 +23,7 @@ public class BootLoader implements ApplicationListener<ContextRefreshedEvent>{
         String[] tokenTickers = {"BTC", "ETH", "LINK", "VIDT","RLC"};
 
         for(int i = 0; i < tokenTickers.length ; i++){
-            Token newToken = new Token(tokenTickers[i], (long) (1000000*(i+1)));
+            Token newToken = new Token(tokenTickers[i], (long) (1000000*(i+1)), "");
             tokenService.saveToken(newToken);
         }
 

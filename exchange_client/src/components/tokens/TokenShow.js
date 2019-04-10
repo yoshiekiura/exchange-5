@@ -2,28 +2,29 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { fetchToken } from '../../actions';
 
+
 class TokenShow extends React.Component {
 
-  componentDidMount() {
-    const {id} = this.props.match.params;
-    this.props.fetchToken(id);
-  }
-
-  render() {
-    if(!this.props.token){
-      return (
-        <div>Loading...</div>
-      );
+    componentDidMount() {
+        this.props.fetchToken(this.props.match.params.id);
     }
-    const {ticker, supply} = this.props.token;
-    return (
-      <div>
-        <h1>{ticker}</h1>
-        <h5>{supply}</h5>
-      </div>
-    );
-  }
-  
+
+    render() {
+        if(!this.props.token){
+            return (
+              <div>
+                  Loading ...
+              </div>
+            );
+        }
+        return (
+            <div>
+                <h1>{this.props.token.ticker}</h1>
+                <h5>{this.props.token.supply}</h5>
+            </div>
+        );
+    }
+
 }
 
 const mapStateToProps = (state, ownProps) => {

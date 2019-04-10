@@ -29,6 +29,11 @@ public class TokenServiceImpl implements TokenService{
     }
 
     @Override
+    public Iterable<Token> listAllTokensByUser(String createdBy) {
+        return tokenRepository.findAllByCreatedBy(createdBy);
+    }
+
+    @Override
     public Token saveToken(Token token) {
         return tokenRepository.save(token);
     }
@@ -37,5 +42,7 @@ public class TokenServiceImpl implements TokenService{
     public void deleteTokenById(Integer id) {
         tokenRepository.deleteById(id);
     }
+
+
 
 }
